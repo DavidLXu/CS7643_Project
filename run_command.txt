@@ -1,0 +1,9 @@
+conda activate G2L && cd /root/DepthEstimation/BoostingMonocularDepth
+
+# Running the method using MiDas
+python run.py --Final --data_dir /root/DepthEstimation/inputs --output_dir  /root/DepthEstimation/outputs_midas/ --depthNet 0
+
+
+# Running the method using LeRes
+python run.py --Final --data_dir /root/DepthEstimation/inputs --output_dir  /root/DepthEstimation/outputs_leres/ --depthNet 2
+
