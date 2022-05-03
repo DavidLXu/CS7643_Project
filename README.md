@@ -1,5 +1,5 @@
 # CS7643_Project
-We used the original code implementation of (Boosting method)[https://github.com/compphoto/BoostingMonocularDepth] as a starting point, and made some modifications to the resolution selection part and refined the code structure. We combined code implementations of (MiDaS)[https://github.com/isl-org/MiDaS] as the backbone and (Pix2Pix)[https://github.com/phillipi/pix2pix] as the merge network togerther with the boosting implementation. In addition, we implemented a script to apply noise and corruptions to NYU-v2 dataset, and evaluated the model performance on that dataset.
+We used the original code implementation of [Boosting method](https://github.com/compphoto/BoostingMonocularDepth) as a starting point, and made some modifications to the resolution selection part and refined the code structure. We combined code implementations of [MiDaS](https://github.com/isl-org/MiDaS) as the backbone and [Pix2Pix](https://github.com/phillipi/pix2pix) as the merge network togerther with the boosting implementation. In addition, we implemented a script to apply noise and corruptions to NYU-v2 dataset, and evaluated the model performance on that dataset.
 
 The link to Boosting Monocular Depth Estimation Github repository is at 
 https://github.com/compphoto/BoostingMonocularDepth
